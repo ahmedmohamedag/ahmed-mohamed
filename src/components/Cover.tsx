@@ -7,8 +7,10 @@ const Cover = () => {
             <h1 className="py-3 capitalize text-2xl">
                 {personData.name}</h1>
             <div className="flex justify-between items-center gap-1 text-center w-full py-3">
-                <span className="text-sm capitalize text-slate-200 hover:bg-slate-500 px-4 py-1 rounded-3xl flex-1 duration-500">{personData.position}</span>
-                <span className="text-sm capitalize text-slate-200 hover:bg-slate-500 px-4 py-1 rounded-3xl flex-1 cursor-pointer duration-500">{personData.phone}</span>
+                <span className="text-sm capitalize text-slate-200 hover:bg-slate-500 px-4 py-1 rounded-3xl flex-1 duration-500 transition-colors">
+                    {personData.position}</span>
+                <span className="text-sm capitalize text-slate-200 hover:bg-slate-500 px-4 py-1 rounded-3xl flex-1 cursor-pointer 
+                duration-500 transition-colors">{personData.phone}</span>
             </div>
         </div>
     )
