@@ -11,7 +11,12 @@ const Cover = ({lang}:I_Props) => {
                     lang =="en" ? (<h2 className="pt-4 text-2xl text-white"><span className="text-3xl text-emerald-400">A</span>hmed  <span className="text-3xl text-emerald-400">M</span>ohamed </h2>):
                     (<h2 className="pt-4 text-2xl text-white">احمد محمد</h2>)
                 }
-            <span className="text-[#d3cdcd]">Frontend Developer</span>
+
+                {
+                    lang =="en" ? (<span className="text-[#d3cdcd]">Frontend Developer</span>):
+                    (<span className="text-[#d3cdcd]">مطور مواقع</span>)
+                }
+            
         </div>
     )
 }
