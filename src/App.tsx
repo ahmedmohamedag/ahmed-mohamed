@@ -19,7 +19,7 @@ const App = () => {
         lang == "en" ?
           (
             <button
-              className={`absolute text-2xl font-semibold  bg-[#44bdc5] rounded-full outline-none h-14 w-14 top-6 right-6`}
+              className={`absolute text-2xl font-semibold text-white  bg-[#44bdc5] rounded-full outline-none h-14 w-14 top-6 right-6`}
               onClick={() => {
 
                 changeLang("ar", "أحمد محمد")
