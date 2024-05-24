@@ -2,34 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(31, 30, 30);
-    height: 100vh;
-}
-
-/* width */
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #93d2d45e;
-    border-radius: 10px;
-
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #03daf7;
-    border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #12b3db;
-}

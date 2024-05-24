@@ -29,6 +29,16 @@ export const contactData = [
         url: "https://www.youtube.com/@ahmedmohamedagg ",
         body: " "
     },
+    {
+        logo: "telegram.png",
+        url: "http://t.me/ahmedmohamedag ",
+        body: " "
+    },
+    {
+        logo: "gmail.png",
+        url:"https://mail.google.com/mail/u/0/?fs=1&to=ahmedmohamedprofile@gmail.com&tf=cm",
+        body: " "
+    },
 ]
 
 export const personData =

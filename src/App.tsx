@@ -1,9 +1,11 @@
-import About from "./components/About"
+import Contact from "./components/Contact"
+import Cover from "./components/Cover"
 
 const App = () => {
   return (
-    <main className="px-2">
-      <About/>
+    <main className="bg-[#313030] min-h-screen">
+      <Cover/>
+      <Contact/>
     </main>
   )
 }
