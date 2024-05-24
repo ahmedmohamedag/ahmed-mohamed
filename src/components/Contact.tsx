@@ -1,14 +1,15 @@
 import { contactData } from "../data"
 interface I_Props{
     lang:string,
+    mode:string,
 }
-const Contact = ({lang}:I_Props) => {
+const Contact = ({lang,mode}:I_Props) => {
     return (
-        <section >
+        <section className={`${mode=="dark"?"text-white":"text-black"}`}>
             {
-                lang == "en"?(<h2 className="py-5 text-xl font-semibold text-center text-white sm:text-2xl">You can communicate with me by :</h2>):
+                lang == "en"?(<h2 className="py-5 text-xl font-semibold text-center sm:text-2xl">You can communicate with me by :</h2>):
                 (
-                    <h2 className="py-5 text-xl font-semibold text-center text-white sm:text-2xl">يمكنك التواصل معي بما يناسبك </h2>
+                    <h2 className="py-5 text-xl font-semibold text-center sm:text-2xl">يمكنك التواصل معي بما يناسبك </h2>
                 )
             }
             <div className="grid grid-cols-2 mx-auto sm:grid-cols-4 justify-items-center md:w-[500px] py-5">
